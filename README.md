@@ -3,7 +3,7 @@
 Bu proje, Siem Grup Firmasi adina gelistirilen basit bir API projesidir.
 
 ---
-## Katmanlarda Kullan?lan Kütüphaneler Ve Katmanlar Aras? Referanslar
+## Katmanlarda Kullanilan Kütüphaneler Ve Katmanlar Arasi Referanslar
 
 #### Business
 ##### Library
