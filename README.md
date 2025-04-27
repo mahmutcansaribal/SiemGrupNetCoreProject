@@ -1,9 +1,26 @@
-## Proje A�iklamasi
+# 📚 Siem Grup - Kütüphane Yönetim API Projesi
 
-Bu proje, Siem Grup Firmasi adina gelistirilen basit bir API projesidir.
+Bu proje, **Siem Grup** firması adına geliştirilmiş basit bir **API** projesidir.  
+Proje geliştirirken **katmanlı mimari** prensibi benimsenmiş ve temiz kod yapısına özen gösterilmiştir.
+
+## Kullanılan Teknolojiler ve Yapılar
+
+- **Katmanlı Mimari** kullanılmıştır:
+  - Entities Katmanı (Varlıklar/Modeller)
+  - Data Access Katmanı (Veritabanı işlemleri)
+  - Business Katmanı (İş kuralları)
+  - API Katmanı (Servis uç noktaları)
+
+- **DTO (Data Transfer Object)** yapısı kullanılarak, veriler katmanlar arasında güvenli ve doğru şekilde taşınmıştır.
+
+- **AutoMapper** kullanılarak, entity'ler ile DTO'lar arasında dönüşümler otomatik hale getirilmiştir.
+
+- **Entity Framework Core** ile veritabanı işlemleri gerçekleştirilmiştir.
+
+- **Validation** model üzerinde `[Required]`, `[MaxLength]` gibi attribute'lar ile doğrulamalar yapılmıştır.
 
 ---
-## Katmanlarda Kullanilan K�t�phaneler Ve Katmanlar Arasi Referanslar
+## Katmanlarda Kullanılan Kütüphaneler Ve Katmanlar Arası Referanslar
 
 #### Business
 ##### Library
@@ -24,7 +41,7 @@ Bu proje, Siem Grup Firmasi adina gelistirilen basit bir API projesidir.
 #### Entities
 ##### Library
 - 
-##### Project Referans
+##### Project Reference
 -
 ---
 #### API.SiemGrupLibraryManagementProject
